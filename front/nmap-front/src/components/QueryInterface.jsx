@@ -38,7 +38,7 @@ export const QueryInterface = () => {
         <br/>
         <Container sx={{p:4}}>
           <Typography variant={"h5"}>
-            Output:
+            Output: {queryResult}
           </Typography>
 
           <Container sx={{bgcolor: "lightgrey", p:2}}>
